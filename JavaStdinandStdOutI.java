@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class HackerrankScanner {
+public class JavaStdinandStdOutI {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int a = keyboard.nextInt();
