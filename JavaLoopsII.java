@@ -16,19 +16,14 @@ public class JavaLoopsII {
             int b = in.nextInt(); // let be 2 for test
             int n = in.nextInt(); // let be 10 for test
             int totalSum = 0;  
-           
-            // System.out.println("The value of a is: " + a);
-			// System.out.println("The value of b is: " + b);
-			// System.out.println("The value of n is: " + n);
+
 		        
 			for(double t=0;t<n;t++) { 
-		
-			int addOnPatternOfSeries = (int) ((int) b * Math.pow(2, t));
-			totalSum = totalSum + addOnPatternOfSeries;
-			// int y =+ addOnPatternofSeries;
-			System.out.print(a + totalSum + " ");
-			// System.out.println(y);
+				int addOnPatternOfSeries = (int) ((int) b * Math.pow(2, t));
+				totalSum = totalSum + addOnPatternOfSeries;
+				System.out.print(a + totalSum + " ");
 			}
+			System.out.println();
         }
     	in.close();
 	}
